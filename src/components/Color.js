@@ -3,7 +3,7 @@ const hexRgb = require('hex-rgb');
 import PropTypes from 'prop-types';
 
 export default function Color({ name, hex }) {
-  Color.PropTypes = {
+  Color.propTypes = {
     name: PropTypes.string.isRequired,
     hex: PropTypes.string.isRequired
   };
