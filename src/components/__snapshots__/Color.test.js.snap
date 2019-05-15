@@ -5,9 +5,9 @@ exports[`Color component matches snapshot 1`] = `
   <div
     style={
       Object {
-        "background": "#60b2e5",
-        "height": "50px",
-        "width": "50px",
+        "background": "#FF0000",
+        "height": "40px",
+        "width": "40px",
       }
     }
   />
@@ -15,28 +15,28 @@ exports[`Color component matches snapshot 1`] = `
     Name
   </dt>
   <dd>
-    blue
+    Red
   </dd>
   <dt>
     Hex
   </dt>
   <dd>
-    #60b2e5
+    #FF0000
   </dd>
   <dt>
     RGB
   </dt>
   <dd>
-    R: 
-    96
+    red: 
+    255
   </dd>
   <dd>
-    G: 
-    178
+    green: 
+    0
   </dd>
   <dd>
-    B: 
-    229
+    blue: 
+    0
   </dd>
 </dl>
 `;

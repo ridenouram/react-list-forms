@@ -1,0 +1,11 @@
+-create a CreateColor component takes an addColor property
+-CreateColor is a form with a name and color input
+-on submitting the form invoke the addColor property to add a new color
+-create a Colors component that takes an array of colors
+  -a color has name, hex, and rgb
+  -for each color in the array create a Color component
+  -display all Color components in a ul
+-create a ColorList container that holds your state
+-store a list of colors in ColorList state
+-create an App component that uses ColorList
+-create an index.js that renders your App component
