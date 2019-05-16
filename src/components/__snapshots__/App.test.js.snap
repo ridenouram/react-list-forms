@@ -35,7 +35,7 @@ exports[`App component matches snapshot 1`] = `
     </a>
   </Sidebar>
   <p>
-    dog
+    checkout this cool dog
   </p>
 </container>
 `;
