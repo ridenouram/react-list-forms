@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component matches snapshot 1`] = `
+<container
+  className="Container"
+>
+  <Sidebar>
+    <a
+      href="#"
+      name="dog"
+      onClick={[Function]}
+    >
+      Dog
+    </a>
+    <a
+      href="#"
+      name="cat"
+      onClick={[Function]}
+    >
+      Cat
+    </a>
+    <a
+      href="#"
+      name="snake"
+      onClick={[Function]}
+    >
+      Snake
+    </a>
+    <a
+      href="#"
+      name="fish"
+      onClick={[Function]}
+    >
+      Fish
+    </a>
+  </Sidebar>
+  <p>
+    dog
+  </p>
+</container>
+`;
