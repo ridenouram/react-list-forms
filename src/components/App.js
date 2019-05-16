@@ -2,6 +2,13 @@ import React, { Component } from 'react';
 import Sidebar from './Sidebar';
 import styles from './Sidebar.css';
 
+const linkText = {
+  dog: 'checkout this cool dog',
+  cat: 'meow',
+  snake: 'sneaky snek',
+  fish: 'freddie fish'
+};
+
 export default class App extends Component {
   state = {
     selected: 'dog'
@@ -21,9 +28,8 @@ export default class App extends Component {
           <a href="#" name="snake" onClick={this.handleChange}>Snake</a>
           <a href="#" name="fish" onClick={this.handleChange}>Fish</a>
         </Sidebar>
-        <p>{selected}</p>
+        <p>{linkText[selected]}</p>
       </container>
     );
-
   }
 }
