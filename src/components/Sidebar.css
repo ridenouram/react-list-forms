@@ -1,0 +1,19 @@
+.Container {
+  display: flex;
+  p {
+    padding: 50px;
+    font-size: 30px;
+  }
+}
+
+.Sidebar {
+  background: black;
+  display: flex;
+  flex-direction: column;
+  width: 20em;
+  a {
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+  }
+}

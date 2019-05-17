@@ -1,0 +1,4 @@
+-create a Sidebar component
+-a sidebar has children that render in a <nav> element
+-create an App component that uses your Sidebar component
+-create an index.js that renders your App component
