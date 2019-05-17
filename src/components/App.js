@@ -1,6 +1,5 @@
 import React from 'react';
-import ColorList from './ColorList';
-
+import Colors from './Colors';
 
 export default function App() {
   const colors = [
@@ -11,6 +10,6 @@ export default function App() {
   ];
 
   return (
-    <ColorList colors={colors} />
+    <Colors colors={colors} />
   );
 }

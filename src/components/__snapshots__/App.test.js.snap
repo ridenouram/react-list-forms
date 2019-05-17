@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Color component matches snapshot 1`] = `
+<Colors
+  colors={
+    Array [
+      Object {
+        "hex": "#339b1b",
+        "name": "green",
+        "rgb": Object {
+          "b": 27,
+          "g": 155,
+          "r": 51,
+        },
+      },
+      Object {
+        "hex": "#60b2e5",
+        "name": "blue",
+        "rgb": Object {
+          "b": 229,
+          "g": 178,
+          "r": 96,
+        },
+      },
+      Object {
+        "hex": "#7f57e5",
+        "name": "purple",
+        "rgb": Object {
+          "b": 229,
+          "g": 87,
+          "r": 127,
+        },
+      },
+      Object {
+        "hex": "#e5ac57",
+        "name": "orange",
+        "rgb": Object {
+          "b": 87,
+          "g": 172,
+          "r": 229,
+        },
+      },
+    ]
+  }
+/>
+`;
