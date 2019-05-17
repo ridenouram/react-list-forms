@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`photo album component matches snapshot 1`] = `
+<container
+  className="PhotoAlbum"
+>
+  <h2 />
+  <Photos
+    photos={Array []}
+  />
+</container>
+`;

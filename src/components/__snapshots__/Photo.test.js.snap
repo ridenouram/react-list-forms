@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`photo component matches snapshot 1`] = `
+<img
+  className="Photo"
+  src=""
+/>
+`;
