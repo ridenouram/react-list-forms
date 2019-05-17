@@ -25,7 +25,7 @@ export default class CreateColor extends PureComponent {
     const { name, hex } = this.state;
 
     return (
-      <form>
+      <form onSubmit={this.handleSubmit}>
         <input type="text" name="name" value={name} onChange={this.handleChange}></input>
         <input type="color" name="hex" value={hex} onChange={this.handleChange}></input>
         <button>Submit</button>

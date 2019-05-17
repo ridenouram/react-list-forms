@@ -8,15 +8,18 @@ export default class ColorList extends PureComponent {
   }
 
   addColor = color => {
-    const { colors } = this.state;
-    colors.push(color);
+    this.setState(state => {
+      return {
+        colors: [...state.colors, color]
+      };
+    });
   }
   
   render() {
     return (
     <>
-      <CreateColor addColor={this.addColor}/>,
-      {/* <Colors /> */}
+      <CreateColor addColor={this.addColor}/>
+      <Colors colors={this.state.colors} />
     </>
     );
   }
