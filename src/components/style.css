@@ -1,0 +1,14 @@
+.Photo {
+  width: 400px;
+  margin: 10px;
+}
+
+.li {
+  list-style-type: none;
+}
+
+.Photos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
