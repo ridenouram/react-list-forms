@@ -20,7 +20,7 @@ export default function App() {
     <>
       <Header title='My Favorite Possums' />
       <PhotoAlbum title='So Many Good Bois' photos={photos} />
-      <Footer title='Thanks for visiting my smokin hot photo album' />
+      <Footer text='Thanks for visiting my smokin hot photo album' />
     </>
   );
 }
