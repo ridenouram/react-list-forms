@@ -1,9 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from './style.css';
 
 export default function Photo({ photo }) {
   return (
-    <img src={photo} />
+    <img className={styles.Photo} src={photo} />
   );
 }
 
