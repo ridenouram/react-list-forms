@@ -3,7 +3,10 @@ import ColorList from './ColorList';
 
 export default function App() {
   return (
-    <ColorList />
+    <>
+      <h1>Make a color list</h1>
+      <ColorList />
+    </>
   );
 }
 
